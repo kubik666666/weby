@@ -1,0 +1,63 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+header button{
+    background-color: rgb(94, 94, 94);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    transition: all 0.3s;
+}
+
+header button:hover {
+    height: 40px;
+    width: 115px;
+}
+
+.navigace {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    height: 41px;
+}
+
+.motiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.motiv button {
+    height: 20px;
+    width: 100px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}

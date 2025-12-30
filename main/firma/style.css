@@ -1,0 +1,73 @@
+
+* {
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.nadpis img {
+    width: 250px;
+    height: 100px;
+}
+header button {
+    background-color: grey;
+    border-radius: 13px;
+    transition: all 0.5s;
+}
+header button:hover{
+    background-color: black;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.hlavni {
+    color: white;
+}
+.hlavni button{
+    margin: 10px;
+    background-color: white;
+    border-radius: 13px;
+    transition: all 0.5s;
+}
+.hlavni button:hover{
+    background-color: greenyellow;
+}
+.hlavni a {
+    text-decoration: none;
+    color: black;
+}
+.img {
+    height: 275px;
+    width: 1185px;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    height: 250px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.img img:hover{
+    height: 275px;
+    width: 375px;
+}
+body{
+    background-color: grey;
+}
+footer{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+}

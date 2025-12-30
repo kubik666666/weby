@@ -1,0 +1,59 @@
+header{
+    background-color: orange;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+p{
+    font-size: larger;
+}
+h2{
+    font-size: xx-large;
+}
+h3{
+    font-size: x-large;
+}
+li{
+    color: white;
+    transition: font-size 0.5s;
+}
+.receptymenu:hover{
+    color: beige;
+    font-size: larger;
+}
+img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+button{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: orange;
+    transition: font-size 0.5s;
+}
+button:hover{
+    font-size: 17px;
+}
+.menubutton:hover{
+    font-size: 20px;
+}
+.menubutton{
+    background-color: beige;
+}
+ul{
+    font-size: large;
+}

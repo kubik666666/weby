@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>komunikace JS a HTML</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Zmena textu</h1>
+        <p id="text1">tenhle text se pomoci cerne magie (js) bude menit</p>
+        <button onclick="zmena()">zmena</button>
+        <button onclick="barva(1)">cervena</button>
+        <button onclick="barva(2)">zelena</button>
+        <button onclick="barva(3)">modra</button>
+        <button onclick="barva(4)">cerna</button>
+    </div>
+    <div>
+        <h1>Klikacka</h1>
+        <p>tohle cislo se bude menit: <span id="cislo">0</span></p>
+        <button onclick="pridej()">pridej</button>
+        <button onclick="odeber()">odeber</button> 
+        <button onclick="vynuluj()">vynuluj</button>
+    </div>
+    <div>
+        <h1>zmena barevneho rezimu</h1>
+        <button onclick="nword()">dark</button>
+        <button onclick="bilo()">light</button>
+    </div>
+    <div>
+        <h1>obrazek</h1>
+        <img src="krtecek.jpg" alt="krtecek" id="krtecek" style="height: 200px;">
+        <img src="Pou.jpg" alt="pou" id="pou" style="display: none; height: 200px;"> <br>
+        <button onclick="zmizeni()" id="button1">zmizeni krtecka</button>
+        <button onclick="zmenaimg()">zmena obrazku</button>
+    </div>
+</body>
+</html>
